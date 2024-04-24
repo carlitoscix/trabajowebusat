@@ -1,0 +1,45 @@
+BODY {color:green }
+
+P {color:red; 
+   font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:30px;
+  }
+
+  table{
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    -webkit-border-horizontal-spacing: 5px;
+    -webkit-border-vertical-spacing: 5px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+}
+
+center {
+    text-align: -webkit-center;
+}
