@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#jugadores">Jugadores</a></li>
+            <li><a href="#trofeos">Trofeos</a></li>
+        </ul>
+    </nav>
+
+    <section id="historia">
+        <h2>Historia del FC Barcelona</h2>
+        <p>El FC Barcelona fue fundado en 1899 por un grupo de suizos y catalanes. Desde entonces, el club ha tenido una
+            historia rica y llena de éxitos. Han ganado numerosos títulos nacionales e internacionales, incluyendo la
+            Liga de Campeones de la UEFA en cinco ocasiones. El club ha sido un pilar de la cultura catalana y ha sido
+            un símbolo de resistencia contra el franquismo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit possimus quae officia impedit
+            quaerat fuga sapiente, repellat explicabo saepe hic in inventore sequi. Voluptas, quam? Magni aliquid,
+            accusamus ea quasi ad temporibus velit perspiciatis quisquam rem labore quia nulla, delectus aspernatur
+            asperiores! Maxime, tempora. Eaque alias reiciendis eligendi unde non suscipit rem fugit autem, culpa
+            distinctio, vitae nihil laboriosam illum quas, consequuntur nisi repudiandae facere qui esse. Autem tempore
+            non modi soluta! Sapiente aut voluptate amet quae vero tenetur, distinctio explicabo atque nostrum aperiam
+            numquam enim doloremque incidunt dignissimos soluta in ipsum obcaecati sunt minima vitae! Ullam, iste
+            accusamus?</p>
+        <nav>
+            <a href="#">Home</a>
+        </nav>
+    </section>
+
+    <section id="jugadores">
+        <h2>Jugadores destacados del FC Barcelona</h2>
+        <p>El FC Barcelona ha tenido la suerte de contar con algunos de los mejores jugadores de fútbol de todos los
+            tiempos. Lionel Messi, Xavi Hernández, Andrés Iniesta, Carles Puyol y Ronaldinho son solo algunos de los
+            nombres que han dejado una huella imborrable en el club. Su estilo de juego único y su dedicación al equipo
+            han ayudado al Barcelona a alcanzar el éxito en el campo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere assumenda minus, odio cupiditate
+            incidunt distinctio, autem dolore, quo fuga voluptatibus praesentium culpa ut illo alias nostrum provident!
+            Sed placeat inventore voluptate assumenda quisquam. Est, natus! Dolores sequi, vitae maxime obcaecati
+            quibusdam quia tempora impedit provident totam in laboriosam ipsam ipsa asperiores et fugit suscipit modi
+            atque qui natus quae consequatur rem! Similique pariatur repellat officia tenetur voluptatibus? Dolores
+            cumque consequuntur nesciunt odit obcaecati quo ipsa ipsam, deserunt deleniti eveniet consequatur sint.
+            Iusto dignissimos ducimus placeat suscipit dolorem velit, ad est quod libero voluptatem id ipsam. Omnis quis
+            deleniti id?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere assumenda minus, odio cupiditate
+            incidunt distinctio, autem dolore, quo fuga voluptatibus praesentium culpa ut illo alias nostrum provident!
+            Sed placeat inventore voluptate assumenda quisquam. Est, natus! Dolores sequi, vitae maxime obcaecati
+            quibusdam quia tempora impedit provident totam in laboriosam ipsam ipsa asperiores et fugit suscipit modi
+            atque qui natus quae consequatur rem! Similique pariatur repellat officia tenetur voluptatibus? Dolores
+            cumque consequuntur nesciunt odit obcaecati quo ipsa ipsam, deserunt deleniti eveniet consequatur sint.
+            Iusto dignissimos ducimus placeat suscipit dolorem velit, ad est quod libero voluptatem id ipsam. Omnis quis
+            deleniti id?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere assumenda minus, odio cupiditate
+            incidunt distinctio, autem dolore, quo fuga voluptatibus praesentium culpa ut illo alias nostrum provident!
+            Sed placeat inventore voluptate assumenda quisquam. Est, natus! Dolores sequi, vitae maxime obcaecati
+            quibusdam quia tempora impedit provident totam in laboriosam ipsam ipsa asperiores et fugit suscipit modi
+            atque qui natus quae consequatur rem! Similique pariatur repellat officia tenetur voluptatibus? Dolores
+            cumque consequuntur nesciunt odit obcaecati quo ipsa ipsam, deserunt deleniti eveniet consequatur sint.
+            Iusto dignissimos ducimus placeat suscipit dolorem velit, ad est quod libero voluptatem id ipsam. Omnis quis
+            deleniti id?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere assumenda minus, odio cupiditate
+            incidunt distinctio, autem dolore, quo fuga voluptatibus praesentium culpa ut illo alias nostrum provident!
+            Sed placeat inventore voluptate assumenda quisquam. Est, natus! Dolores sequi, vitae maxime obcaecati
+            quibusdam quia tempora impedit provident totam in laboriosam ipsam ipsa asperiores et fugit suscipit modi
+            atque qui natus quae consequatur rem! Similique pariatur repellat officia tenetur voluptatibus? Dolores
+            cumque consequuntur nesciunt odit obcaecati quo ipsa ipsam, deserunt deleniti eveniet consequatur sint.
+            Iusto dignissimos ducimus placeat suscipit dolorem velit, ad est quod libero voluptatem id ipsam. Omnis quis
+            deleniti id?</p>
+        <nav>
+            <a href="#">Home</a>
+        </nav>
+    </section>
+
+    <section id="trofeos">
+        <h2>Trofeos del FC Barcelona</h2>
+        <p>El FC Barcelona ha ganado numerosos trofeos a lo largo de su historia. Han ganado la Liga Española 26 veces,
+            la Copa del Rey 31 veces y la Liga de Campeones de la UEFA en cinco ocasiones. Además, han ganado otros
+            torneos nacionales e internacionales, lo que les convierte en uno de los clubes de fútbol más exitosos del
+            mundo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo debitis voluptatem corporis magni saepe
+            deserunt nostrum explicabo suscipit error, odit quibusdam quae harum molestias doloribus id dolor et illum
+            laboriosam enim autem necessitatibus ab. Quos libero veniam perferendis sequi accusantium neque facilis quod
+            porro tempora dolor quis aliquid ullam voluptatibus ad corrupti dolorem magni, excepturi, iusto distinctio
+            natus doloribus possimus? Illum nobis temporibus, accusamus ad odit aliquid voluptates autem dicta omnis ex
+            vero repellat, quod iure deleniti recusandae itaque? Voluptate assumenda sequi earum accusantium facilis
+            perferendis repellendus praesentium, impedit dolorum, pariatur deserunt exercitationem dolores fugiat illum
+            illo, velit veniam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo debitis voluptatem corporis magni saepe
+            deserunt nostrum explicabo suscipit error, odit quibusdam quae harum molestias doloribus id dolor et illum
+            laboriosam enim autem necessitatibus ab. Quos libero veniam perferendis sequi accusantium neque facilis quod
+            porro tempora dolor quis aliquid ullam voluptatibus ad corrupti dolorem magni, excepturi, iusto distinctio
+            natus doloribus possimus? Illum nobis temporibus, accusamus ad odit aliquid voluptates autem dicta omnis ex
+            vero repellat, quod iure deleniti recusandae itaque? Voluptate assumenda sequi earum accusantium facilis
+            perferendis repellendus praesentium, impedit dolorum, pariatur deserunt exercitationem dolores fugiat illum
+            illo, velit veniam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo debitis voluptatem corporis magni saepe
+            deserunt nostrum explicabo suscipit error, odit quibusdam quae harum molestias doloribus id dolor et illum
+            laboriosam enim autem necessitatibus ab. Quos libero veniam perferendis sequi accusantium neque facilis quod
+            porro tempora dolor quis aliquid ullam voluptatibus ad corrupti dolorem magni, excepturi, iusto distinctio
+            natus doloribus possimus? Illum nobis temporibus, accusamus ad odit aliquid voluptates autem dicta omnis ex
+            vero repellat, quod iure deleniti recusandae itaque? Voluptate assumenda sequi earum accusantium facilis
+            perferendis repellendus praesentium, impedit dolorum, pariatur deserunt exercitationem dolores fugiat illum
+            illo, velit veniam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo debitis voluptatem corporis magni saepe
+            deserunt nostrum explicabo suscipit error, odit quibusdam quae harum molestias doloribus id dolor et illum
+            laboriosam enim autem necessitatibus ab. Quos libero veniam perferendis sequi accusantium neque facilis quod
+            porro tempora dolor quis aliquid ullam voluptatibus ad corrupti dolorem magni, excepturi, iusto distinctio
+            natus doloribus possimus? Illum nobis temporibus, accusamus ad odit aliquid voluptates autem dicta omnis ex
+            vero repellat, quod iure deleniti recusandae itaque? Voluptate assumenda sequi earum accusantium facilis
+            perferendis repellendus praesentium, impedit dolorum, pariatur deserunt exercitationem dolores fugiat illum
+            illo, velit veniam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo debitis voluptatem corporis magni saepe
+            deserunt nostrum explicabo suscipit error, odit quibusdam quae harum molestias doloribus id dolor et illum
+            laboriosam enim autem necessitatibus ab. Quos libero veniam perferendis sequi accusantium neque facilis quod
+            porro tempora dolor quis aliquid ullam voluptatibus ad corrupti dolorem magni, excepturi, iusto distinctio
+            natus doloribus possimus? Illum nobis temporibus, accusamus ad odit aliquid voluptates autem dicta omnis ex
+            vero repellat, quod iure deleniti recusandae itaque? Voluptate assumenda sequi earum accusantium facilis
+            perferendis repellendus praesentium, impedit dolorum, pariatur deserunt exercitationem dolores fugiat illum
+            illo, velit veniam!</p>
+        <nav>
+            <a href="#">Home</a>
+        </nav>
+    </section>
+
+
+
+</body>
+
+</html>
