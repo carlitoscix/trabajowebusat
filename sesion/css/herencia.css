@@ -2,3 +2,59 @@ body{
 color: blue;
 }
 
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+ }
+
+ table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+ }
+ table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+ }
+
+ table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+
+ table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #5f0202;
+    border-spacing: 0;
+ }
+ 
+ table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #2c0101 url("gradient.gif") bottom left repeat-x;
+    color: #fff;
+ }
+ td, th {
+    background: #fff;
+    color: #3b0303;
+ }

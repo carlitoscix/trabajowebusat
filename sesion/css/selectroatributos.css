@@ -1,0 +1,15 @@
+
+a[class="externo"] {
+
+    color: green;
+}
+a[class="prueba"] {
+
+    color: magenta;
+}
+
+a[href^="mailto"] {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumvioletred;
+}
