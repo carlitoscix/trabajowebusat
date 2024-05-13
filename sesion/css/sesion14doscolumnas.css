@@ -1,34 +1,40 @@
 body{
-    margin: 0px
-
+    margin: 0px;
 }
+
 header{
     background-color: yellow;
     height: 80px;
     padding-top: 30px;
 }
+
+nav, section{
+    height: 500px;
+}
+
 nav{
     background-color: green;
     width: 25%;
-
+    float: left;
 }
+
 section{
     background-color: grey;
     width: 75%;
+    float: left;
 }
-footer{
 
+footer{
     background-color: blue;
     height: 50px;
     clear: left;
 }
-nav,section{
-    float: left;
-    height: 500px;
-}
+
 p{
-    padding: 10px;
+    padding: 10pxs;
 }
+
 li{
     list-style: none;
 }
+

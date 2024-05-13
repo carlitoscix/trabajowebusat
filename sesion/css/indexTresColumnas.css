@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+header{
+    width: 100%;
+    background-color: green;
+    height: 200px;
+}
+
+nav, section, aside{
+    height: 500px;
+    float: left;
+}
+
+nav{
+    background-color: grey;
+    width: 20%;
+}
+
+section{
+    background-color: red;
+    width: 60%;
+}
+
+aside{
+    background-color: blue;
+    width: 20%;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+    clear: left;
+}
