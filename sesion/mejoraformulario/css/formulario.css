@@ -1,0 +1,44 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.contenedor{
+    width: 100rem;
+    height: 80vh;
+    margin: 0 auto;
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10rem 0;
+}
+
+h1, h2{
+    color: #310b0b;
+}
+
+.entradas{
+    display: flex;
+    gap: 1rem;
+}
+
+.entrada-correo{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
