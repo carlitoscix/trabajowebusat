@@ -1,0 +1,15 @@
+#contenedor{
+    width: 360px;
+    margin: auto;
+    background-color: rgb(63, 205, 106);
+    padding: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}

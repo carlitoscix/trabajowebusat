@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendav_3.css">
+    <title>Agenda V3</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h3>Agenda USAT</h3>
+            <hr>
+        </header>
+        <form action="">
+            <span>Nombre: </span>
+            <input type="text" placeholder="Nombre" id="nombre">
+            <span>Num Celular: </span>
+            <input type="text" placeholder="Movil" id="movil">
+            <span>Email: </span>
+            <input type="text" placeholder="Email" id="email">
+        </form>
+        <div>
+            <button type="button" onclick="guardarDatos()">Guardar</button>
+            <button type="button" onclick="recuperarDatos()">Recuperar</button>
+            <button type="button" onclick="eliminarDatos()">Eliminar</button>
+            <button type="button" onclick="eliminarTodos()">Eliminar Todos</button>
+        </div>
+        <hr>
+        <span>Nombre</span>
+        <span>Celular</span>
+        <span>Email</span>
+        <ul id="contactos">
+
+        </ul>
+    </div>
+
+    <script src="js/agendav3.js"></script>
+</body>
+
+</html>
