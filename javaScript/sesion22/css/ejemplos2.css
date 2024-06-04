@@ -1,0 +1,13 @@
+div:hover{
+    background-color: yellow;
+
+}
+p:hover{
+    background-color: aqua;
+}
+a:focus{
+color: green;
+}
+a:active{
+    color:hotpink;
+}

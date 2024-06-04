@@ -1,0 +1,15 @@
+.PARRAFO{
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+
+}
+
+.PARRAFO::first-letter{
+    float: left;
+    font-size: 80PX;
+    line-height: 60PX;
+    padding: 2PX;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 5PX;
+
+}
