@@ -1,188 +1,114 @@
-$bg: #e6e6e6;
-$pink1: #cf1963;
-$pink2: #5c0b2c;
-$pink3: #c6185f;
-$pink4: #a1144f;
-$black1: #0a0a0a;
-$grey1: #3d3d3d;
-$grey2: #292929;
-$grey3: #131313;
-
-@mixin ps {
-  content: "";
-  position: absolute;
-}
-
-@mixin b($w, $h) {
-  width: $w;
-  height: $h;
-}
-
-html {
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+:root {
+  --main-bg-color: #422261;
+  --face: #422261;
 }
+/* CSS flexbox para alinear nuestro elementos sin importar el tamaño de pantalla*/
 
 body {
-  margin-top: 30px;
-  background-color: $bg;
-}
-
-.soldier {
-  display: flex;
+  display: flex; 
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+}
+/*dibujar la cara*/
+.face {
+  width: 75px;
+  height: 30px;
+  background-color: var(--face);
+  position: relative;
+  left: 60px;
+  bottom: 40px;
+  transform: rotate(10deg);
+  z-index: 1;
+  border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
 }
 
-.head {
-  position: relative;
-  @include b(230px, 300px);
-  background-color: $pink1;
-  border-radius: 50% 50% 28% 28% / 40% 40% 45% 45%;
-  padding: 15px;
 
-  &::before {
-    bottom: 0;
-    left: 30px;
-    @include ps();
-    @include b(60px, 30px);
-    border-radius: 100%;
-    background-color: $pink4;
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-    transform: rotate(20deg);
-  }
-  &::after {
-    bottom: 5px;
-    right: 30px;
-    @include ps();
-    @include b(65px, 28px);
-    border-radius: 100%;
-    background-color: $pink4;
-    clip-path: polygon(0 60%, 100% 50%, 100% 100%, 0 100%);
-    transform: rotate(-25deg);
-  }
-
-  .shadow {
-    @include b(200px, 270px);
-    background-color: $pink2;
-    border-radius: 50% 40% 40% 38% / 43% 40% 45% 45%;
-    padding: 5px;
-
-    &::before {
-      background-color: #cf1963;
-      clip-path: polygon(37% 64%, 100% 50%, 100% 100%, 0 100%);
-      transform: rotate(-25deg);
-      bottom: 19px;
-      right: 40px;
-      @include ps();
-      @include b(50px, 30px);
-      border-radius: 100%;
-      background-color: $pink1;
-    }
-  }
-
-  .mask {
-    position: relative;
-    margin-top: 5px;
-    @include b(190px, 250px);
-    border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
-    overflow: hidden;
-    background: $black1
-      radial-gradient(ellipse at center 3%, #fff3 0%, #0000 60%);
-    background-color: $black1;
-    background-image: radial-gradient(#fff1 30%, #0000 0),
-      radial-gradient(ellipse at center 3%, #fff3 0%, #0000 60%);
-    background-size: 5px 5px, auto;
-  }
-
-  .symbol {
-    @include b(90px, 90px);
-    border: 13px solid white;
-    border-radius: 50%;
-    position: relative;
-    margin: 0 auto;
-    top: 10px;
-    margin-bottom: 25px;
-  }
-
-  .x {
-    @include b(800px, 250px);
-    border: 8px solid $grey1;
-    border-radius: 50%;
-    position: absolute;
-    top: -51%;
-    left: -305px;
-  }
-
-  .y {
-    @include b(6px, 100%);
-    background-color: $grey3;
-    margin: 0px auto;
-    box-shadow: -6px 0 $grey2, 6px 0 $grey2;
-  }
+/*parámetros iniciales de la animación que son: el nombre de la animación,
+ la duración (que es como la velocidad) y el número de veces que queremos que se repita la animación además de los que ya teníamos*/
+.face::after {
+  content: '';
+  position: absolute;
+  background-color: var(--face);
+  top: -25px;
+  left: 120px;
+  width: 75px;
+  height: 30px;
+  transform: rotate(-20deg);
+  border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
 }
 
-.neck {
+.face::before {
+  content: '';
+  position: absolute;
+  top: 75px;
+  left: 15px;
+  background-color: var(--face);
+  transform: rotate(-10deg);
+  width: 200px;
+  height: 50px;
+  clip-path: polygon(0% 35%, 17% 2%, 21% 37%, 31% 17%, 36% 32%, 49% 6%, 63% 34%, 86% 8%, 85% 30%, 100% 30%, 94% 60%, 79% 98%, 66% 62%, 63% 94%, 53% 76%, 42% 100%, 31% 62%, 17% 96%, 14% 66%);
+  
+  animation-name: pulse;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  
+}
+/*  los keyframes de la animación que son las guías para que CSS interprete lo que queremos hacer */
+@keyframes pulse {
+  0% {transform: scale(1) rotate(-10deg);}
+  50% {transform: scale(1.1) rotate(-10deg);}
+  100% {transform: scale(1) rotate(-10deg);}
+}
+/*dibujar el tallo, Aquí usamos position: relative para colocar el tallo en relación a la calabaza.*/
+.stem {
   position: relative;
-  margin-top: -50px;
+  bottom: 180px;
+  background-color: #8cc63e;
+  left: 200px;
   z-index: -1;
-  @include b(200px, 60px);
-  background-color: $pink1;
-  border-radius: 20px;
-  clip-path: polygon(
-    3% 79%,
-    0 65%,
-    3% 35%,
-    0 0,
-    13% 3%,
-    41% 0,
-    67% 2%,
-    98% 2%,
-    97% 15%,
-    100% 31%,
-    96% 64%,
-    98% 82%,
-    100% 100%,
-    71% 95%,
-    49% 95%,
-    21% 96%,
-    0 98%
-  );
+  width: 75px;
+  height: 150px;
+  transform: rotate(30deg);
+  border-radius: 58% 42% 69% 31% / 44% 100% 0% 56% ;
 }
 
-.body {
-  position: relative;
-  top: -300px;
-  left: 10px;
-  @include b(590px, 540px);
-  border-radius: 100%;
-  overflow: hidden;
-  // z-index: -2;
 
-  .inner-body {
-    position: relative;
-    top: 53%;
-    @include b(550px, 320px);
-    background-color: red;
-    border-radius: 100%;
-    background-color: $pink1;
-    border-radius: 100%;
-    margin: 0 auto;
-    clip-path: polygon(162px 3px, 132px 5.32%, 14.78% 15.81%, 7.72% 23.76%, 0.88% 43.91%, 108px 85.63%, 103.45% 80%, 93.1% 62px, 78.00% -6px, 47.46% 3.28%)
-  }
-  .zipper {
-    position: absolute;
-    @include b(30px, 100%);
-    background-color: black;
-    left: 50%;
-    bottom: -275px;
-    transform: translate(calc(-50% + -10px), 0);
-    z-index: 1;
-  }
+/*crear máscara para el tallo : Esta máscara circular pudo haber sido dibujada con "border-radius: 50%" 
+pero para practicar otra propiedad preferí usar "clip-path: circle(50% at 50% 50%)"*/
+
+.stem::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--main-bg-color);
+  clip-path: circle(50% at 50% 50%);
+}
+/*dibujar la calabaza -  la sintaxis que usa "/" para definir base y altura de las esquinas
+box-shadow podemos modificar la posición en X y Y con respecto al elemento original, el desenfoque, 
+la escala y el color*/
+
+.pumpkin {
+  position: relative;
+  height: 300px;
+  width: 170px;
+  background-color: #f8931f;
+  border-radius: 28% 72% 33% 67% / 21% 83% 17% 79% ;
+  transform: rotate(13deg);
+  box-shadow:
+    40px -15px 0px  0px #f87700, /*4*/
+    -40px 4px 0px -1px #fbb03b, /*2*/
+    80px -35px 0px -2px #f8931f, /*5*/
+    -80px 5px 0px -2px #f8931f; /*1*/
 }
