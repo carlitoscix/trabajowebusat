@@ -1,0 +1,188 @@
+$bg: #e6e6e6;
+$pink1: #cf1963;
+$pink2: #5c0b2c;
+$pink3: #c6185f;
+$pink4: #a1144f;
+$black1: #0a0a0a;
+$grey1: #3d3d3d;
+$grey2: #292929;
+$grey3: #131313;
+
+@mixin ps {
+  content: "";
+  position: absolute;
+}
+
+@mixin b($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-top: 30px;
+  background-color: $bg;
+}
+
+.soldier {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  position: relative;
+  @include b(230px, 300px);
+  background-color: $pink1;
+  border-radius: 50% 50% 28% 28% / 40% 40% 45% 45%;
+  padding: 15px;
+
+  &::before {
+    bottom: 0;
+    left: 30px;
+    @include ps();
+    @include b(60px, 30px);
+    border-radius: 100%;
+    background-color: $pink4;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    transform: rotate(20deg);
+  }
+  &::after {
+    bottom: 5px;
+    right: 30px;
+    @include ps();
+    @include b(65px, 28px);
+    border-radius: 100%;
+    background-color: $pink4;
+    clip-path: polygon(0 60%, 100% 50%, 100% 100%, 0 100%);
+    transform: rotate(-25deg);
+  }
+
+  .shadow {
+    @include b(200px, 270px);
+    background-color: $pink2;
+    border-radius: 50% 40% 40% 38% / 43% 40% 45% 45%;
+    padding: 5px;
+
+    &::before {
+      background-color: #cf1963;
+      clip-path: polygon(37% 64%, 100% 50%, 100% 100%, 0 100%);
+      transform: rotate(-25deg);
+      bottom: 19px;
+      right: 40px;
+      @include ps();
+      @include b(50px, 30px);
+      border-radius: 100%;
+      background-color: $pink1;
+    }
+  }
+
+  .mask {
+    position: relative;
+    margin-top: 5px;
+    @include b(190px, 250px);
+    border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+    overflow: hidden;
+    background: $black1
+      radial-gradient(ellipse at center 3%, #fff3 0%, #0000 60%);
+    background-color: $black1;
+    background-image: radial-gradient(#fff1 30%, #0000 0),
+      radial-gradient(ellipse at center 3%, #fff3 0%, #0000 60%);
+    background-size: 5px 5px, auto;
+  }
+
+  .symbol {
+    @include b(90px, 90px);
+    border: 13px solid white;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    margin-bottom: 25px;
+  }
+
+  .x {
+    @include b(800px, 250px);
+    border: 8px solid $grey1;
+    border-radius: 50%;
+    position: absolute;
+    top: -51%;
+    left: -305px;
+  }
+
+  .y {
+    @include b(6px, 100%);
+    background-color: $grey3;
+    margin: 0px auto;
+    box-shadow: -6px 0 $grey2, 6px 0 $grey2;
+  }
+}
+
+.neck {
+  position: relative;
+  margin-top: -50px;
+  z-index: -1;
+  @include b(200px, 60px);
+  background-color: $pink1;
+  border-radius: 20px;
+  clip-path: polygon(
+    3% 79%,
+    0 65%,
+    3% 35%,
+    0 0,
+    13% 3%,
+    41% 0,
+    67% 2%,
+    98% 2%,
+    97% 15%,
+    100% 31%,
+    96% 64%,
+    98% 82%,
+    100% 100%,
+    71% 95%,
+    49% 95%,
+    21% 96%,
+    0 98%
+  );
+}
+
+.body {
+  position: relative;
+  top: -300px;
+  left: 10px;
+  @include b(590px, 540px);
+  border-radius: 100%;
+  overflow: hidden;
+  // z-index: -2;
+
+  .inner-body {
+    position: relative;
+    top: 53%;
+    @include b(550px, 320px);
+    background-color: red;
+    border-radius: 100%;
+    background-color: $pink1;
+    border-radius: 100%;
+    margin: 0 auto;
+    clip-path: polygon(162px 3px, 132px 5.32%, 14.78% 15.81%, 7.72% 23.76%, 0.88% 43.91%, 108px 85.63%, 103.45% 80%, 93.1% 62px, 78.00% -6px, 47.46% 3.28%)
+  }
+  .zipper {
+    position: absolute;
+    @include b(30px, 100%);
+    background-color: black;
+    left: 50%;
+    bottom: -275px;
+    transform: translate(calc(-50% + -10px), 0);
+    z-index: 1;
+  }
+}
