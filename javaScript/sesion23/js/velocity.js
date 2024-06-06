@@ -1,20 +1,17 @@
-$(document).ready(function() {
-    $('.start').on('click', function(){
-      $(".box").velocity({
-        left: "600px",
-      }, {
-        duration: 500,
-      });
-    });
-    $('.reset').on('click', function(){
-      $(".box").velocity({
-        left: "0",
-      }, {
-        duration: 500,
-        easing: "linear"
-      });
-    })
+var $down = $("#go-down");
+var $up = $("#go-up");
+
+$down.on("click", function() {
+  $up.velocity("scroll", { 
+    duration: 2000,
+    easing: "easeInBack"
   });
-  
-  
-  Resources
+});
+
+$up.on("click", function() {
+  $("body").velocity("scroll", { 
+    duration: 2000,
+    easing: "easeInBack"
+  });
+});
+
