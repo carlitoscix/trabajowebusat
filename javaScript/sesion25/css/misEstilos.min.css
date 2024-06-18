@@ -1,0 +1,10 @@
+#contenedor{
+
+    background-color:rgb(128, 190, 57);
+    
+}
+div [class^="col"]{
+    border:1px black solid;
+    background-color:chocolate ;
+}
+
